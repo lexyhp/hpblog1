@@ -1,0 +1,9 @@
+libraries:
+- name: "django"
+  version: "1.10.6"
+
+pygments: true
+
+handlers:
+- url: /static
+  static_path: static
